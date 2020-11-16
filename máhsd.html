@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script>
+            var isMonkeyImage = false;
+
+            function changeImg() {
+                let image = document.getElementById('cat1');
+                image.src = "monkey_part3x1.jpg";
+
+                if (!isMonkeyImage) {
+                    image.src = "monkey_part3x1.jpg";
+                    isMonkeyImage = true;
+                } else {
+                    image.src = "funny-cat1_part1x1.jpg";
+                    isMonkeyImage = false;
+                }
+            }
+        </script>
+    </head>
+<body>
+<img width="400" id='cat1' src="funny-cat1_part1x1.jpg" onclick="changeImg()"/>
+<!--<img width="400" id='monkey1'src="monkey_part3x1.jpg" onclick=-->
+</body>
+</html>
+</head>
+<body>
+
+</body>
+</html>
